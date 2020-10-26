@@ -1,0 +1,10 @@
+﻿  Bomber.cpp
+  Escenario.cpp
+C:\Users\Castillo\source\repos\BomberPanFinal\Menu.h(6,1): error C2504: 'Escenario': clase base sin definir
+C:\Users\Castillo\source\repos\BomberPanFinal\Escenario.cpp(8,18): warning C4353: se ha utilizado una extensión no estándar: constante 0 como expresión de función. Utilice en su lugar la función intrínseca '__noop'
+C:\Users\Castillo\source\repos\BomberPanFinal\Escenario.cpp(8,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Menu.cpp
+C:\Users\Castillo\source\repos\BomberPanFinal\Menu.cpp(18,47): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': el argumento 1 no puede convertirse de 'void' a 'const sf::Drawable &'
+C:\Users\Castillo\source\repos\BomberPanFinal\Menu.cpp(18,45): message : Las expresiones de tipo void no se pueden convertir en otros tipos
+C:\Users\Castillo\Desktop\SFML-2.5.1\include\SFML\Graphics\RenderTarget.hpp(237,10): message : vea la declaración de 'sf::RenderTarget::draw'
+  Generando código...
